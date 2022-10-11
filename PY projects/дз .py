@@ -60,6 +60,6 @@ n = int(input(" Введите число n "))
 sum = 1
 i = 1
 while sum < n:
-    print(sum)
+    print(sum, end=' ')
     sum = 2 ** i
     i += 1
